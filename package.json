@@ -1,0 +1,35 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "tsc src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "@types/nodemailer": "^6.4.15",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.5",
+    "routes": "^2.1.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/sequelize": "^4.28.20",
+    "ts-node": "^10.9.2",
+    "tsc-node": "^0.0.3",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5"
+  }
+}
