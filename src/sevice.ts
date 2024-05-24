@@ -104,47 +104,6 @@ export async function sendWeatherEmail(recipientEmail: string,reqBody:sendWeathe
 }
 
 
-// <td>${data.weather.temperature}</td>
-// <td>${data.weather.condition}</td>
-// <td>${data.weather.wind}</td>
-// <td>${data.weather.humidity}</td>
-
-
-// const tableRows = cityDetails.map((detail: WeatherDataInformations) => `
-// <tr>
-//   <td>${detail.city}</td>
-//   <td>${detail.country}</td>
-//   <td>${detail.temprature}</td>
-//   <td>${detail.wind}</td>
-//   <td>${detail.humidity}</td>
-//   <td>${detail.condition}</td>
-//   <td>${detail.time}</td>
-// </tr>
-// `).join('');
-
-// const emailHtml = `
-// <h1>Weather Information</h1>
-// <table border="1">
-//   <tr>
-//     <th>City</th>
-//     <th>Country</th>
-//     <th>Temperature</th>
-//     <th>Wind</th>
-//     <th>Humidity</th>
-//     <th>Condition</th>
-//     <th>Date</th>
-//   </tr>
-// </table>
-// `;
-
-// await transporter.sendMail({
-// from: 'sunilvathar14@gmail.com',
-// to: recipientEmail,
-// subject: 'Weather Information',
-// html: emailHtml,
-// });
-
-
 
 
 
